@@ -30,28 +30,28 @@
         {
             this.canvas = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.redBox = new System.Windows.Forms.PictureBox();
-            this.fuchsiaBox = new System.Windows.Forms.PictureBox();
-            this.blueBox = new System.Windows.Forms.PictureBox();
-            this.cyanBox = new System.Windows.Forms.PictureBox();
-            this.greenBox = new System.Windows.Forms.PictureBox();
-            this.blackBox = new System.Windows.Forms.PictureBox();
             this.yellowBox = new System.Windows.Forms.PictureBox();
-            this.purpleBox = new System.Windows.Forms.PictureBox();
-            this.brownBox = new System.Windows.Forms.PictureBox();
+            this.greenBox = new System.Windows.Forms.PictureBox();
             this.orangeBox = new System.Windows.Forms.PictureBox();
+            this.brownBox = new System.Windows.Forms.PictureBox();
+            this.cyanBox = new System.Windows.Forms.PictureBox();
+            this.blueBox = new System.Windows.Forms.PictureBox();
+            this.purpleBox = new System.Windows.Forms.PictureBox();
+            this.blackBox = new System.Windows.Forms.PictureBox();
+            this.fuchsiaBox = new System.Windows.Forms.PictureBox();
+            this.redBox = new System.Windows.Forms.PictureBox();
             this.canvas.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.redBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fuchsiaBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blueBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cyanBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.greenBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blackBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yellowBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.purpleBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brownBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.orangeBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brownBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cyanBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blueBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.purpleBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blackBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fuchsiaBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redBox)).BeginInit();
             this.SuspendLayout();
             // 
             // canvas
@@ -84,45 +84,15 @@
             this.panel1.Size = new System.Drawing.Size(186, 72);
             this.panel1.TabIndex = 0;
             // 
-            // redBox
+            // yellowBox
             // 
-            this.redBox.BackColor = System.Drawing.Color.Red;
-            this.redBox.Location = new System.Drawing.Point(3, 3);
-            this.redBox.Name = "redBox";
-            this.redBox.Size = new System.Drawing.Size(31, 29);
-            this.redBox.TabIndex = 1;
-            this.redBox.TabStop = false;
-            this.redBox.Click += new System.EventHandler(this.blackBox_Click);
-            // 
-            // fuchsiaBox
-            // 
-            this.fuchsiaBox.BackColor = System.Drawing.Color.Fuchsia;
-            this.fuchsiaBox.Location = new System.Drawing.Point(40, 3);
-            this.fuchsiaBox.Name = "fuchsiaBox";
-            this.fuchsiaBox.Size = new System.Drawing.Size(31, 29);
-            this.fuchsiaBox.TabIndex = 1;
-            this.fuchsiaBox.TabStop = false;
-            this.fuchsiaBox.Click += new System.EventHandler(this.blackBox_Click);
-            // 
-            // blueBox
-            // 
-            this.blueBox.BackColor = System.Drawing.Color.Blue;
-            this.blueBox.Location = new System.Drawing.Point(77, 3);
-            this.blueBox.Name = "blueBox";
-            this.blueBox.Size = new System.Drawing.Size(31, 29);
-            this.blueBox.TabIndex = 1;
-            this.blueBox.TabStop = false;
-            this.blueBox.Click += new System.EventHandler(this.blackBox_Click);
-            // 
-            // cyanBox
-            // 
-            this.cyanBox.BackColor = System.Drawing.Color.Cyan;
-            this.cyanBox.Location = new System.Drawing.Point(114, 3);
-            this.cyanBox.Name = "cyanBox";
-            this.cyanBox.Size = new System.Drawing.Size(31, 29);
-            this.cyanBox.TabIndex = 1;
-            this.cyanBox.TabStop = false;
-            this.cyanBox.Click += new System.EventHandler(this.blackBox_Click);
+            this.yellowBox.BackColor = System.Drawing.Color.Yellow;
+            this.yellowBox.Location = new System.Drawing.Point(151, 38);
+            this.yellowBox.Name = "yellowBox";
+            this.yellowBox.Size = new System.Drawing.Size(31, 29);
+            this.yellowBox.TabIndex = 1;
+            this.yellowBox.TabStop = false;
+            this.yellowBox.Click += new System.EventHandler(this.blackBox_Click);
             // 
             // greenBox
             // 
@@ -134,35 +104,15 @@
             this.greenBox.TabStop = false;
             this.greenBox.Click += new System.EventHandler(this.blackBox_Click);
             // 
-            // blackBox
+            // orangeBox
             // 
-            this.blackBox.BackColor = System.Drawing.Color.Black;
-            this.blackBox.Location = new System.Drawing.Point(3, 38);
-            this.blackBox.Name = "blackBox";
-            this.blackBox.Size = new System.Drawing.Size(31, 29);
-            this.blackBox.TabIndex = 1;
-            this.blackBox.TabStop = false;
-            this.blackBox.Click += new System.EventHandler(this.blackBox_Click);
-            // 
-            // yellowBox
-            // 
-            this.yellowBox.BackColor = System.Drawing.Color.Yellow;
-            this.yellowBox.Location = new System.Drawing.Point(151, 38);
-            this.yellowBox.Name = "yellowBox";
-            this.yellowBox.Size = new System.Drawing.Size(31, 29);
-            this.yellowBox.TabIndex = 1;
-            this.yellowBox.TabStop = false;
-            this.yellowBox.Click += new System.EventHandler(this.blackBox_Click);
-            // 
-            // purpleBox
-            // 
-            this.purpleBox.BackColor = System.Drawing.Color.Purple;
-            this.purpleBox.Location = new System.Drawing.Point(40, 38);
-            this.purpleBox.Name = "purpleBox";
-            this.purpleBox.Size = new System.Drawing.Size(31, 29);
-            this.purpleBox.TabIndex = 1;
-            this.purpleBox.TabStop = false;
-            this.purpleBox.Click += new System.EventHandler(this.blackBox_Click);
+            this.orangeBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.orangeBox.Location = new System.Drawing.Point(114, 38);
+            this.orangeBox.Name = "orangeBox";
+            this.orangeBox.Size = new System.Drawing.Size(31, 29);
+            this.orangeBox.TabIndex = 1;
+            this.orangeBox.TabStop = false;
+            this.orangeBox.Click += new System.EventHandler(this.blackBox_Click);
             // 
             // brownBox
             // 
@@ -174,15 +124,65 @@
             this.brownBox.TabStop = false;
             this.brownBox.Click += new System.EventHandler(this.blackBox_Click);
             // 
-            // orangeBox
+            // cyanBox
             // 
-            this.orangeBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.orangeBox.Location = new System.Drawing.Point(114, 38);
-            this.orangeBox.Name = "orangeBox";
-            this.orangeBox.Size = new System.Drawing.Size(31, 29);
-            this.orangeBox.TabIndex = 1;
-            this.orangeBox.TabStop = false;
-            this.orangeBox.Click += new System.EventHandler(this.blackBox_Click);
+            this.cyanBox.BackColor = System.Drawing.Color.Cyan;
+            this.cyanBox.Location = new System.Drawing.Point(114, 3);
+            this.cyanBox.Name = "cyanBox";
+            this.cyanBox.Size = new System.Drawing.Size(31, 29);
+            this.cyanBox.TabIndex = 1;
+            this.cyanBox.TabStop = false;
+            this.cyanBox.Click += new System.EventHandler(this.blackBox_Click);
+            // 
+            // blueBox
+            // 
+            this.blueBox.BackColor = System.Drawing.Color.Blue;
+            this.blueBox.Location = new System.Drawing.Point(77, 3);
+            this.blueBox.Name = "blueBox";
+            this.blueBox.Size = new System.Drawing.Size(31, 29);
+            this.blueBox.TabIndex = 1;
+            this.blueBox.TabStop = false;
+            this.blueBox.Click += new System.EventHandler(this.blackBox_Click);
+            // 
+            // purpleBox
+            // 
+            this.purpleBox.BackColor = System.Drawing.Color.Purple;
+            this.purpleBox.Location = new System.Drawing.Point(40, 38);
+            this.purpleBox.Name = "purpleBox";
+            this.purpleBox.Size = new System.Drawing.Size(31, 29);
+            this.purpleBox.TabIndex = 1;
+            this.purpleBox.TabStop = false;
+            this.purpleBox.Click += new System.EventHandler(this.blackBox_Click);
+            // 
+            // blackBox
+            // 
+            this.blackBox.BackColor = System.Drawing.Color.Black;
+            this.blackBox.Location = new System.Drawing.Point(3, 38);
+            this.blackBox.Name = "blackBox";
+            this.blackBox.Size = new System.Drawing.Size(31, 29);
+            this.blackBox.TabIndex = 1;
+            this.blackBox.TabStop = false;
+            this.blackBox.Click += new System.EventHandler(this.blackBox_Click);
+            // 
+            // fuchsiaBox
+            // 
+            this.fuchsiaBox.BackColor = System.Drawing.Color.Fuchsia;
+            this.fuchsiaBox.Location = new System.Drawing.Point(40, 3);
+            this.fuchsiaBox.Name = "fuchsiaBox";
+            this.fuchsiaBox.Size = new System.Drawing.Size(31, 29);
+            this.fuchsiaBox.TabIndex = 1;
+            this.fuchsiaBox.TabStop = false;
+            this.fuchsiaBox.Click += new System.EventHandler(this.blackBox_Click);
+            // 
+            // redBox
+            // 
+            this.redBox.BackColor = System.Drawing.Color.Red;
+            this.redBox.Location = new System.Drawing.Point(3, 3);
+            this.redBox.Name = "redBox";
+            this.redBox.Size = new System.Drawing.Size(31, 29);
+            this.redBox.TabIndex = 1;
+            this.redBox.TabStop = false;
+            this.redBox.Click += new System.EventHandler(this.blackBox_Click);
             // 
             // Form1
             // 
@@ -191,19 +191,19 @@
             this.ClientSize = new System.Drawing.Size(1049, 614);
             this.Controls.Add(this.canvas);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Drawing Pad";
             this.canvas.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.redBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fuchsiaBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blueBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cyanBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.greenBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blackBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yellowBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.purpleBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.brownBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.orangeBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.brownBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cyanBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blueBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.purpleBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blackBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fuchsiaBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redBox)).EndInit();
             this.ResumeLayout(false);
 
         }
